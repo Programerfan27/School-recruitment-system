@@ -25,7 +25,10 @@ public class Main {
         else{
             System.out.print( name +  " Sorry: we exepected more from your gpa");
         }
-
+        if(gpa>5){
+            System.out.print(name + "Be fair with your gpa" );
+            System. exit(0);
+        }
     }
 
 }
