@@ -12,7 +12,7 @@ public class Main {
         int age = scanner.nextInt();
 
         if(age<18) {
-            System.out.print( "stop you are too young for college");
+            System.out.print( "Stop you are too young for college");
             System. exit(0);
         }
 
@@ -20,7 +20,7 @@ public class Main {
         float gpa = scanner.nextFloat();
 
         if(gpa>=4) {
-            System.out.print( name +  " You are apccepted. Expect an email");
+            System.out.print( name +  " You are apccepted. Expect an email from us");
         }
         else{
             System.out.print( name +  " Sorry: we exepected more from your gpa");
